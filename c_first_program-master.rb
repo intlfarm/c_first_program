@@ -12,7 +12,7 @@ def cerina_guess_number_color_game
 
   colors = ["red", "orange", "yellow", "green", "blue", "pink", "purple", "teal"].shuffle
 
-  puts "Guess a color of the rainbow!"
+  puts "Guess a color of the rainbow!\nPick red, orange, yellow, green, blue, pink, purple, or teal"
 
   user_color = gets.chomp
     if user_color == colors[0].to_s
